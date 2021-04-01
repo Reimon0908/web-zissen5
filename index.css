@@ -1,0 +1,482 @@
+a{
+  text-decoration: none;/*下線を消す*/
+  color:inherit;/*色を継承する*/
+  transition: 0.3s;
+
+}
+a:hover{
+  color:gray;
+}
+
+.header{
+  position:fixed;
+background-color:white;
+color:black;
+width:100%;
+height:80px;
+z-index: 5;
+
+}
+.header-flex{
+  display:flex;
+}
+.header-logo{
+  font-size:28px;
+  padding:20px 0 0 30px;
+  font-weight:700;
+}
+.header-list{
+  margin:0 0 0 auto;
+}
+.header-list li{
+  float:left;
+  font-size:large;
+  padding:25px 30px 10px 15px ;
+  list-style: none;
+  font-weight:700;
+}
+main{
+  padding-top:80px;
+}
+.mainA{
+background-image: url(img/mv.png);
+background-size:cover;
+background-position:center;
+height:780px;
+width:100%;
+position:relative;
+
+}
+.saisin{
+  color:white;
+  font-size:60px;
+  padding-top:320px;
+  font-family:'Dotum';
+}
+.tekunoroji{
+  color:white;
+  font-size:22px;
+}
+.center{
+  text-align: center;
+}
+.senntarinngu{
+  margin-right:auto;
+  margin-left:auto;
+  width:68%;
+  
+}
+.mainB{
+  background-color:rgb(37, 37, 37);
+  color:white;
+  width:100%;
+  height:350px;
+  position:relative;
+
+}
+.omoi{
+  font-size:35px;
+  position:absolute;
+  top:30%;
+  left:17%;
+}
+.nagai{
+  font-size:18px;
+  width:64%;
+  position:absolute;
+  top:50%;
+  left:17%;
+}
+/*mainc*/
+
+.mainC{
+  background-color:white;
+  height:1200px;
+  width
+  position: relative;
+}
+
+.h3{
+  font-size:35px;
+  text-align: center;
+  margin-top:90px;
+  margin-bottom:20px;
+}
+.parent{
+  display:flex;
+  flex-wrap:wrap;
+  letter-spacing: 0.2em;
+}
+.sa-bisua{
+  width:49%;
+  
+}
+.sa-bisub{
+  width:49%;
+  
+}
+.sa-bisuc{
+  width:49%;
+  
+}
+.sa-bisud{
+  width:49%;
+  
+}
+.service{
+  background-image:url(img/service1.png);
+  background-size:cover;
+  background-position:center;
+  height:380px;
+  width:100%;
+}
+.sa-bisua
+{
+  margin-right:20px;
+}
+.sa-bisuc{
+  margin-right:20px;
+  margin-top:20px;
+}
+.sa-bisud{
+  margin-top:20px;
+}
+.serviceb{
+  background-image:url(img/service2.png);
+  background-size:cover;
+  background-position:center;
+  height:380px;
+  width:100%;
+}
+.servicec{
+  background-image:url(img/service3.png);
+  background-size:cover;
+  background-position:center;
+  height:380px;
+  width:100%;
+}
+.serviced{
+  background-image:url(img/service4.png);
+  background-size:cover;
+  background-position:center;
+  height: 380px;
+  width:100%;
+}
+.bunna{
+  width:100%;
+  font-size:18px;
+}
+.bunnb{
+  width:100%;
+  font-size:18px;
+}
+.bunnc{
+  width:100%;
+  font-size:18px;
+}
+.bunnd{
+  width:100%;
+  font-size:18px;
+}
+.jinnzaiikusei{
+  font-weight: bold;
+  font-size:20px;
+  margin:7px 0;
+}
+.kotingu{
+  font-weight: bold;
+  font-size:20px;
+  margin:7px 0;
+}
+.konnsaru{
+  font-weight: bold;
+  font-size:20px;
+  margin:7px 0;
+}
+.torannsu{
+  font-weight: bold;
+  font-size:20px;
+  margin:7px 0;
+}
+.itirann{
+  width:28%;
+  height:50px;
+  background-color:rgb(194, 12, 12);
+  color:white;
+
+  margin:30px auto;
+  position: relative;
+}
+.miru{
+  font-weight: bold;
+  position: absolute;
+  top:30%;
+  left:25%;
+}
+/*maind*/
+.maind{
+  background-color:rgb(41, 41, 41);
+  width:100%;
+  height:500px;
+  margin-top:50px;
+}
+.tyuukann{
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+.h4{
+  color:white;
+  font-size:30px;
+  margin-top:85px;
+  float: left;
+  letter-spacing: 0.2em;
+}
+.nyu-suitirann{
+  background-color:rgb(185, 16, 50);
+  color:white;
+  width:180px;
+  height:40px;
+  margin-left:85.5%;
+  margin-top:0px;
+  position:relative;
+  top:85px;
+}
+.mirub{
+  font-size:15px;
+  position:absolute;
+  top:20%;
+  left:13%;
+
+}
+.oya{
+  position:relative;
+  top:20px;
+  letter-spacing: 0.1em;
+}
+.itiranna{
+  width:100%;
+  height:70px;
+  background-color:white;
+  position:absolute;
+  top:100px;
+}
+.itirannb{
+  width:100%;
+  height:70px;
+  background-color:white;
+  position:absolute;
+  top:180px;
+}
+.itirannc{
+    width:100%;
+    height:70px;
+  background-color:white;
+  position:absolute;
+  top:260px;
+}
+.hiduke{
+  float: left;
+  margin-top:20px;
+  margin-left:15px;
+}
+.hidukeb{
+  float: left;
+  margin-top:20px;
+  margin-left:15px;
+}
+.hidukec{
+  float:left;
+  margin-top:20px;
+  margin-left:15px;
+}
+.sougyou{
+  font-size:18px;
+  font-weight: bold;
+  margin-top:20px;
+  margin-left:130px;
+  
+}
+.tyoutatu{
+  font-size:18px;
+  font-weight: bold;
+  margin-top:20px;
+  margin-left:130px;
+}
+.keisai{
+  font-size:18px;
+  font-weight: bold;
+  margin-top:20px;
+  margin-left:130px;
+}
+/*maine*/
+
+.maine{
+  width:100%;
+  height:600px;
+  background-color:white;
+}
+.ea{
+  width:66%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.burogu{
+  font-size:30px;
+  text-align: center;
+  margin-top:100px;
+  margin-bottom:30px;
+  
+}
+.buroguitirann{
+  display: flex;
+  flex-wrap:nowrap ;
+  align-items: center;
+}
+.sougyouriyuu{
+  background-image:url(img/blog.png);
+  background-position:center;
+  background-size:cover;
+  width:400px;
+  height:250px;
+}
+.burogua{
+  letter-spacing: 0.1em;
+}
+.burogub{
+  margin-left:30px;
+  letter-spacing: 0.1em;
+}
+.buroguc{
+  margin-left:30px;
+  letter-spacing: 0.1em;
+}
+.riyuu,.mesoddo,.rironn{
+  font-weight:bold;
+  letter-spacing:0.1em;
+  margin-top:5px;
+}
+.hiduked,.hidukee,.hidukef{
+  margin-top:5px;
+}
+.itirannd{
+  width:28%;
+  height:50px;
+  background-color:rgb(194, 12, 12);
+  color:white;
+
+  margin:50px auto;
+  position: relative;
+}
+.mirua{
+  font-weight: bold;
+  position: absolute;
+  top:30%;
+  left:30%;
+}
+/*mainf*/
+
+.mainf{
+  width:100%;
+  height:250px;
+  margin-bottom:100px;
+}
+.hidari{
+  width:50%;
+  height:250px;
+  background-color:crimson;
+  float: left;
+  position:relative;
+}
+.kaisyagaiyou{
+  color:white;
+  font-size:25px;
+  position:absolute;
+  top:45%;
+  left:45%;
+}
+.migi{
+  width:50%;
+  height:250px;
+  background-color:rgb(41, 39, 39);
+  margin-left:auto;
+  position:relative;
+}
+.saiyoujyouhou{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  top:45%;
+  left:45%;
+}
+/*maing*/
+
+.maing{
+  height:350px;
+  width:100%;
+  background-color:rgb(240, 240, 240);
+
+}
+.itiranne{
+  width:18%;
+  height:50px;
+  background-color:rgb(194, 12, 12);
+  color:white;
+
+  margin:50px auto;
+  position: relative;
+}
+.mirub{
+  font-weight: bold;
+  position: absolute;
+  top:30%;
+  left:35%;
+  letter-spacing:0.1em
+}
+.otoiawase{
+  font-size:30px;
+  font-weight:bold;
+  text-align: center;
+  padding-top:100px;
+  letter-spacing:0.1em
+}
+.irai{
+  text-align: center;
+  padding-top:15px;
+  letter-spacing:0.1em
+}
+
+/*footer*/
+
+.footer-a::after{
+  content:"|";
+  padding:0 10px;
+}
+.footer{
+  width:100%;
+  height:100px;
+  color:white;
+  background-color:rgb(54, 54, 54);
+}
+.naka{
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+}
+.footer-logo{
+  margin-top:40px;
+  
+  
+  
+}
+.footer-list{
+  margin:40px 0 0 auto;
+}
+.footer-list li{
+  float:left;
+  list-style: none;
+  padding-right:0px;
+  
+}
