@@ -1,12 +1,16 @@
 a{
-  text-decoration: none;
-  color:inherit;
-
+  text-decoration: none;/*下線を消す*/
+  color:inherit;/*色を継承する*/
+  transition: 0.3s;
 
 }
 a:hover{
   color:gray;
+ 
 }
+
+
+
 .header{
   position:fixed;
 background-color:white;
@@ -58,69 +62,25 @@ z-index: 5;
 
 .mainb{
   width:100%;
-  height:1150px;
-}
-.tyuukann{
-  width:70%;
-  margin:0 auto;
-  padding-top:80px;
-  flex-wrap:wrap;
-  display:flex;
-}
-.ikuseijigyou,
-.ko-tinngujigyou,
-.konnsarujityou,
-.torannsufo-me-syonjigyou{
-  width:100%;
- border-top:1px solid black;
- padding-top:20px;
- padding-bottom:25px;
 
 }
-.service-imga{
-  width:290px;
-  height:200px;
-  background-image:url(img/service1.png);
-  background-position:center;
-  background-size:cover;
-  float: left;
-}
-.mojityuukann{
-  padding-left:30%;
-}
-.ikusei,
-.ko-tinngu,
-.konnsaru,
-.torannsu{
-  font-size:27px;
-  font-weight:bold;
-}
-.service-imgb{
-  width:290px;
-  height:200px;
-  background-image:url(img/service2.png);
-  background-size:cover;
-  background-position:center;
-  float:left;
-}
-.service-imgc{
-  width:290px;
-  height:200px;
-  background-image:url(img/service3.png);
-  background-size:cover;
-  background-position:center;
-  float:left;
-}
-.service-imgd{
-  width:290px;
-  height:200px;
-  background-image:url(img/service4.png);
-  background-size:cover;
-  background-position:center;
-  float:left;
-}
-.torannsufo-me-syonjigyou{
+.tyuukann{
+  width:60%;
+  margin:50px auto 100px auto;
   border-bottom:1px solid black;
+}
+.mojikann,.mojikanna{
+  padding:20px 0;
+  border-top:1px solid black;
+}
+.ta{
+  float:left;
+  font-weight:bold;
+  width:30%;
+  text-align: center;
+}
+.hoso{
+  width:70%;
 }
 
 /*maing*/
@@ -131,18 +91,24 @@ z-index: 5;
   background-color:rgb(240, 240, 240);
 
 }
-.itiranne{
-
-  position: relative;
+.mannnaka{
+  width:60%;
+  margin:0 auto;
+  display: block;
 }
-.mirub{
+.iti{
+  position:relative;
+  
+
+}
+.mirux{
   background-color:rgb(194, 12, 12);
   text-align: center;
   color:white;
   padding:15px 100px;
   position:absolute;
   top:20px;
-  left:42%;
+  left:36%;
 }
 .otoiawase{
   font-size:30px;
@@ -159,7 +125,7 @@ z-index: 5;
 
 /*footer*/
 
-.footer-a::after{
+.footer-a::after{   /*文字の後につく*/
   content:"|";
   padding:0 10px;
 }
