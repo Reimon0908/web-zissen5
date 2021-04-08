@@ -41,6 +41,8 @@ z-index: 5;
 main{
   padding-top:80px;
 }
+/*maina*/
+
 .mainA{
 background-image: url(img/mv.png);
 background-size:cover;
@@ -52,7 +54,7 @@ position:relative;
 }
 .saisin{
   color:white;
-  font-size:60px;
+  font-size:50px;
   padding-top:320px;
   font-family:'Dotum';
 }
@@ -357,7 +359,7 @@ position:relative;
 }
 .buroguitirann{
   display: flex;
-  flex-wrap:nowrap ;
+  flex-wrap:wrap ;
   align-items: center;
 }
 .sougyouriyuu{
@@ -368,13 +370,16 @@ position:relative;
   height:250px;
 }
 .burogua{
+  width:30%;
   letter-spacing: 0.1em;
 }
 .burogub{
+  width:30%;
   margin-left:30px;
   letter-spacing: 0.1em;
 }
 .buroguc{
+  width:30%;
   margin-left:30px;
   letter-spacing: 0.1em;
 }
@@ -386,19 +391,17 @@ position:relative;
 .hiduked,.hidukee,.hidukef{
   margin-top:5px;
 }
-.itirannd{
+/*.itirannd{
   
   margin:50px auto;
   position: relative;
-}
+}*/
 .mirua{
   background-color:rgb(194, 12, 12);
   color:white;
   font-weight: bold;
   padding:10px 60px;
-  position: absolute;
-  top:30%;
-  left:40%;
+  margin:50px auto;
 }
 img{
   width:100%;
@@ -454,20 +457,16 @@ img{
   width:60%;
   margin:0 auto;
   display: block;
-}
-.iti{
-  position:relative;
-  
-
+  /*border:1px solid black;*/
 }
 .mirux{
   background-color:rgb(194, 12, 12);
   text-align: center;
   color:white;
-  padding:15px 100px;
-  position:absolute;
-  top:20px;
-  left:36%;
+  padding:15px 0;
+  width:30%;
+  margin:30px auto;
+  display:inline-block;
 }
 .otoiawase{
   font-size:30px;
