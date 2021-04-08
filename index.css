@@ -111,7 +111,7 @@ position:relative;
 }
 .sa-bisua{
   width:49%;
-  
+  margin-right:2%;
 }
 .sa-bisub{
   width:49%;
@@ -119,11 +119,12 @@ position:relative;
 }
 .sa-bisuc{
   width:49%;
-  
+  margin-right:2%;
+  margin-top:20px;
 }
 .sa-bisud{
   width:49%;
-  
+  margin-top:20px;
 }
 .service{
   background-image:url(img/service1.png);
@@ -132,17 +133,7 @@ position:relative;
   height:380px;
   width:100%;
 }
-.sa-bisua
-{
-  margin-right:20px;
-}
-.sa-bisuc{
-  margin-right:20px;
-  margin-top:20px;
-}
-.sa-bisud{
-  margin-top:20px;
-}
+
 .serviceb{
   background-image:url(img/service2.png);
   background-size:cover;
@@ -234,6 +225,12 @@ position:relative;
  padding:15px;
  font-weight:bold;
  
+}
+.senntarinngua{
+  margin-right:auto;
+  margin-left:auto;
+  width:70%;
+  
 }
 
 /*maind*/
