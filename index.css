@@ -79,23 +79,25 @@ position:relative;
   color:white;
   width:100%;
   height:350px;
-  position:relative;
+  
 
 }
+.oomoi{
+   width:65%;
+   padding:5% 0;
+   margin:0 auto;
 
+}
 .omoi{
   font-size:35px;
-  width:64%;
-  position:absolute;
-  top:30%;
-  left:17%;
+  width:100%;
+  
 }
 .nagai{
   font-size:18px;
-  width:64%;
-  position:absolute;
-  top:50%;
-  left:17%;
+  width:100%;
+  padding:2% 0;
+  
 }
 /*mainc*/
 
@@ -162,57 +164,19 @@ position:relative;
   height: 380px;
   width:100%;
 }
-.bunna{
+.bunna,.bunnb,.bunnc,.bunnd{
   width:100%;
   font-size:18px;
 }
-.bunnb{
-  width:100%;
-  font-size:18px;
-}
-.bunnc{
-  width:100%;
-  font-size:18px;
-}
-.bunnd{
-  width:100%;
-  font-size:18px;
-}
-.jinnzaiikusei{
-  font-weight: bold;
-  font-size:20px;
-  margin:7px 0;
-}
-.kotingu{
-  font-weight: bold;
-  font-size:20px;
-  margin:7px 0;
-}
-.konnsaru{
-  font-weight: bold;
-  font-size:20px;
-  margin:7px 0;
-}
-.torannsu{
-  font-weight: bold;
-  font-size:20px;
-  margin:7px 0;
-}
-.itirann{
-  width:28%;
-  height:50px;
-  background-color:rgb(194, 12, 12);
-  color:white;
-  margin:30px auto;
-  padding:5px;
-  position:relative;
-  display:block;
-  
-  font-weight: bold;
-  
-  background-color:rgb(194, 12, 12);
 
+.jinnzaiikusei,.kotingu,.konnsaru,.torannsu{
+  font-weight: bold;
+  font-size:20px;
+  margin:7px 0;
 }
+
+
+
 .miru{
   background-color:rgb(194, 12, 12);
   width:28%;
@@ -227,7 +191,6 @@ position:relative;
 
 }
 .miruh{
- padding:5px;
  text-align: center;
  padding:15px;
  font-weight:bold;
@@ -517,6 +480,7 @@ img{
   
 }
 .footer-list{
+  
   margin:40px 0 0 auto;
 }
 .footer-list li{
@@ -534,19 +498,26 @@ img{
 
 @media screen and (max-width:768px){
    
- 
+  #hamburger:hover{
+    transition:transform 0.3s;
+  }
+
+
    #hamburger{
     width:40px;
     height:40px;
     z-index:10;
-    display:inline-block;
     margin-left:auto;
+    margin-right:5%;
     position:relative;
+    top:18px;
+    transition:transform 0.3s;
   }
   #hamburger span{
     width:35px;
     height:2px;
     background-color:black;
+    position:absolute;/*これで表示できた。*/
     
 
 
@@ -558,34 +529,56 @@ img{
   }
   #hamburger span:nth-of-type(2){
     top:20px;
+    
   }
   #hamburger span:nth-of-type(3){
     top:30px;
+    
   }
 
   .header-list{
     display:none;
   }
+  
+  /*maina*/
+
+  .center{
+    width:80%;
+    margin:0 auto;
+  }
 
 
+  /*mainb*/
+  .mainB{
+    height:400px;
+
+
+  }
   .oomoi{
-  width:80%;
-  margin:0 auto;
-}
- .omoi{
-   font-size:30px;
-   width:80%;
-   margin:2% auto;
-   position:absolute;
-   top:0%;
-   left:0%;
-
- }
- .nagai{
-   width:80%;
-   margin:auto;
+    width:85%;
+    padding:20% 0;
+  }
+  .omoi{
+    font-size:30px;
+  }
+  .nagai{
+    font-size:15px;
+  }
+  
+  /*mainc*/
    
- }
+  .mainC{
+
+    height:1300px;
+  }
+
+
+ .h3{
+  font-size:25px;
+  text-align: center;
+  margin-top:90px;
+  margin-bottom:20px;
+}
 
 
 
@@ -597,9 +590,128 @@ img{
   width:100%;
 }
 
-   .sa-bisua{
+   .sa-bisua,.sa-bisub,.sa-bisuc,.sa-bisud{
     width:100%;
 
   }
+  .serviceb{
+  background-image:url(img/service2.png);
+  background-size:cover;
+  background-position:center;
+  height:180px;
+  width:100%;
+}
+.servicec{
+  background-image:url(img/service3.png);
+  background-size:cover;
+  background-position:center;
+  height:180px;
+  width:100%;
+}
+.serviced{
+  background-image:url(img/service4.png);
+  background-size:cover;
+  background-position:center;
+  height: 180px;
+  width:100%;
+}
+.bunna,.bunnb,.bunnc,.bunnd{
+  width:100%;
+  font-size:12px;
+}
+.jinnzaiikusei,.kotingu,.konnsaru,.torannsu{
+  font-weight: bold;
+  font-size:15px;
+  margin:7px 0;
+}
+.senntarinngua{
+  width:85%;
+}
+.miru{
+ width:90%;
+}
+.miruh{
+  padding:10px;
+}
+
+/*maind*/
+
+.maind{
+  height:400px;
+}
+.tyuukann{
+  width:80%;
+}
+.h4{
+  font-size:20px;
+}
+.nyu-suitirann{
+  width:160px;
+}
+.mirub{
+  font-size:13px;
+  position:absolute;
+  top:25%;
+}
+.itiranna,.itirannb,.itirannc{
+  height:50px;
+}
+.hiduke,.hidukeb,.hidukec{
+  margin-top:15px;
+  font-size:13px;
+}
+.sougyou,.tyoutatu,.keisai{
+  margin-top:15px;
+  font-size:13px;
+  margin-left:110px;
+}
+.itirannb{
+  position:absolute;
+  top:160px;
+}
+.itirannc{
+  position:absolute;
+  top:220px;
+}
+
+           /*maine*/
+
+.maine{
+  height:1000px;
+}
+
+.ea{
+  width:80%;
+}
+.burogua{
+  width:100%;
+}
+.burogub{
+  width:100%;
+  margin:0;
+}
+.buroguc{
+  width:100%;
+  margin:0;
+}
+
+/*maing*/
+
+.mirux{
+  width:100%;
+  padding:10px 0;
+}
+.footer{
+  height:300px;
+}
+            /*footer*/
+.footer-logo{
+  padding-top:30px;
+  margin:0 auto;
+}
+.footer-a{
+  float: inherit;
+}
+
 
 }
