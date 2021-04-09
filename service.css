@@ -131,18 +131,25 @@ z-index: 5;
   background-color:rgb(240, 240, 240);
 
 }
+.husen{
+  width:70%;
+  margin:0 auto;
+}
 .itiranne{
+ 
+ 
+  display:flex;
 
-  position: relative;
 }
 .mirub{
   background-color:rgb(194, 12, 12);
   text-align: center;
   color:white;
-  padding:15px 100px;
-  position:absolute;
-  top:20px;
-  left:42%;
+  padding:15px 0;
+  width:40%;
+  margin:30px auto;
+  
+  
 }
 .otoiawase{
   font-size:30px;
@@ -189,4 +196,38 @@ z-index: 5;
   list-style: none;
   padding-right:0px;
   
+}
+@media screen and (max-width:768px){
+ .title{
+   margin:30% auto;
+   width:130px;
+
+ }
+
+ /*mainb*/
+ .mainb{
+   height:1650px;
+ }
+ .tyuukann{
+   width:85%;
+ }
+ .mojityuukann{
+   padding-left:0;
+   padding-top:200px;
+ }
+ .service-imga,.service-imgb,.service-imgc,.service-imgd{
+   width:100%;
+
+ }
+.ikusei,.ko-tinngu,.konnsaru,.torannsu{
+  font-size:20px;
+  padding:10px 0 5px 0;
+}
+
+.mirub{
+  width:100%;
+}
+
+
+
 }
