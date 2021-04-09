@@ -514,3 +514,14 @@ img{
   padding-right:0px;
   
 }
+
+@media screen and (max-width:768){
+   
+  
+
+   .sa-bisua{
+    width:80%;
+
+  }
+
+}
