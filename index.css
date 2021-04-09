@@ -71,6 +71,9 @@ position:relative;
   width:68%;
   
 }
+
+/*mainb*/
+
 .mainB{
   background-color:rgb(37, 37, 37);
   color:white;
@@ -79,8 +82,10 @@ position:relative;
   position:relative;
 
 }
+
 .omoi{
   font-size:35px;
+  width:64%;
   position:absolute;
   top:30%;
   left:17%;
@@ -260,7 +265,7 @@ position:relative;
   color:white;
   width:180px;
   height:40px;
-  margin-left:85.5%;
+  margin-left:auto;
   margin-top:0px;
   position:relative;
   top:85px;
@@ -271,6 +276,7 @@ position:relative;
   position:absolute;
   top:20%;
   left:13%;
+
 
 }
 .oya{
@@ -519,14 +525,22 @@ img{
   padding-right:0px;
   
 }
+/*
+*{
+  outline: 1px solid red !important;
+  color: red !important;
+}
+*/
 
 @media screen and (max-width:768px){
    
-  #hamburger{
+ 
+   #hamburger{
     width:40px;
     height:40px;
     z-index:10;
     display:inline-block;
+    margin-left:auto;
     position:relative;
   }
   #hamburger span{
@@ -554,7 +568,24 @@ img{
   }
 
 
+  .oomoi{
+  width:80%;
+  margin:0 auto;
+}
+ .omoi{
+   font-size:30px;
+   width:80%;
+   margin:2% auto;
+   position:absolute;
+   top:0%;
+   left:0%;
 
+ }
+ .nagai{
+   width:80%;
+   margin:auto;
+   
+ }
 
 
 
