@@ -125,3 +125,46 @@ span{
   padding-right:0px;
   
 }
+
+@media screen and (max-width:768px){
+ #hamburger{
+   width:40px;
+   height:40px;
+   z-index:10;
+   margin-left:auto;
+   margin-right:5px;
+   position:relative;
+   top:18px;
+ } 
+ #hamburger span{
+   width:35px;
+   height:2px;
+   background-color:black;
+   position:absolute;
+
+ }
+ #hamburger span:nth-of-type(1){
+   top:10px;
+ }
+ #hamburger span:nth-of-type(2){
+   top:20px;
+ }
+ #hamburger span:nth-of-type(3){
+   top:30px;
+ }
+ .header-list{
+   display:none;
+ }
+ /*maina*/
+
+ .title{
+   width:195px;
+   margin:30% auto;
+ }
+
+ /*mainb*/
+
+ .tyuukann{
+   width:90%;
+ }
+}

@@ -98,18 +98,22 @@ img{
   background-color:rgb(240, 240, 240);
 
 }
+.tyuukannd{
+  width:60%;
+  margin:0 auto;
+}
 .itiranne{
+  display:flex;
+  justify-content: center;
   
-  position: relative;
 }
 .miruf{
   background-color:rgb(194, 12, 12);
   text-align: center;
   color:white;
   padding:15px 100px;
-  position:absolute;
-  top:20px;
-  left:42%;
+  width:30%;
+ margin-top:30px;
 }
 .otoiawase{
   font-size:30px;
@@ -156,4 +160,53 @@ img{
   list-style: none;
   padding-right:0px;
   
+}
+@media screen and (max-width:768px){
+  #hamburger{
+    width:40px;
+    height:40px;
+    z-index:10;
+    margin:0 5% 0 auto;
+    position:relative;
+    top:18px;
+
+  }
+  #hamburger span{
+    width:35px;
+    height:2px;
+    background-color:black;
+    position:absolute;
+  }
+  #hamburger span:nth-of-type(1){
+    top:10px;
+  }
+  #hamburger span:nth-of-type(2){
+    top:20px;
+  }
+  #hamburger span:nth-of-type(3){
+    top:30px;
+  }
+  .header-list{
+    display:none;
+  }
+  .title{
+    width:170px;
+    margin:40% auto;
+  }
+  .tyuukann{
+    width:85%;
+  }
+  .bloga,.blogb,.blogc,.blogd,.bloge,.blogf{
+    width:100%;
+    padding-left:0;
+  }
+
+  /*maing*/
+
+  .tyuukannd{
+    width:80%;
+  }
+  .miruf{
+    width:100%;
+  }
 }

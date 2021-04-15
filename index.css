@@ -1,493 +1,467 @@
-a{
-  text-decoration: none;/*下線を消す*/
-  color:inherit;/*色を継承する*/
+a {
+  text-decoration: none; /*下線を消す*/
+  color: inherit; /*色を継承する*/
   transition: 0.3s;
-
 }
-a:hover{
-  color:gray;
- 
+a:hover {
+  color: gray;
 }
 
-
-
-.header{
-  position:fixed;
-background-color:white;
-color:black;
-width:100%;
-height:80px;
-z-index: 5;
-
+.header {
+  position: fixed;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 80px;
+  z-index: 5;
 }
-.header-flex{
-  display:flex;
+.header-flex {
+  display: flex;
 }
-.header-logo{
-  font-size:28px;
-  padding:20px 0 0 30px;
-  font-weight:700;
+.header-logo {
+  font-size: 28px;
+  padding: 20px 0 0 30px;
+  font-weight: 700;
 }
-.header-list{
-  margin:0 0 0 auto;
+.header-list {
+  margin: 0 0 0 auto;
 }
-.header-list li{
-  float:left;
-  font-size:large;
-  padding:25px 30px 10px 15px ;
+.header-list li {
+  float: left;
+  font-size: large;
+  padding: 25px 30px 10px 15px;
   list-style: none;
-  font-weight:700;
+  font-weight: 700;
 }
-main{
-  padding-top:80px;
+main {
+  padding-top: 80px;
 }
 /*maina*/
 
-.mainA{
-background-image: url(img/mv.png);
-background-size:cover;
-background-position:center;
-height:780px;
-width:100%;
-position:relative;
-
+.mainA {
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  height: 780px;
+  width: 100%;
+  position: relative;
 }
-.saisin{
-  color:white;
-  font-size:50px;
-  padding-top:320px;
-  font-family:'Dotum';
+.saisin {
+  color: white;
+  font-size: 50px;
+  padding-top: 320px;
+  font-family: "Dotum";
 }
-.tekunoroji{
-  color:white;
-  font-size:22px;
+.tekunoroji {
+  color: white;
+  font-size: 22px;
 }
-.center{
+.center {
   text-align: center;
 }
-.senntarinngu{
-  margin-right:auto;
-  margin-left:auto;
-  width:68%;
-  
+.senntarinngu {
+  margin-right: auto;
+  margin-left: auto;
+  width: 68%;
 }
 
 /*mainb*/
 
-.mainB{
-  background-color:rgb(37, 37, 37);
-  color:white;
-  width:100%;
-  height:350px;
-  
-
+.mainB {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  width: 100%;
+  height: 350px;
 }
-.oomoi{
-   width:65%;
-   padding:5% 0;
-   margin:0 auto;
-
+.oomoi {
+  width: 65%;
+  padding: 5% 0;
+  margin: 0 auto;
 }
-.omoi{
-  font-size:35px;
-  width:100%;
-  
+.omoi {
+  font-size: 35px;
+  width: 100%;
 }
-.nagai{
-  font-size:18px;
-  width:100%;
-  padding:2% 0;
-  
+.nagai {
+  font-size: 18px;
+  width: 100%;
+  padding: 2% 0;
 }
 /*mainc*/
 
-.mainC{
-  background-color:white;
-  height:1200px;
+.mainC {
+  background-color: white;
+  height: 1200px;
   position: relative;
 }
 
-.h3{
-  font-size:35px;
+.h3 {
+  font-size: 35px;
   text-align: center;
-  margin-top:90px;
-  margin-bottom:20px;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
-.parent{
-  display:flex;
-  flex-wrap:wrap;/*横並びにする*/
-  letter-spacing: 0.2em;/*文字間隔を調整する*/
+.parent {
+  display: flex;
+  flex-wrap: wrap; /*横並びにする*/
+  letter-spacing: 0.2em; /*文字間隔を調整する*/
 }
-.sa-bisua{
-  width:49%;
-  margin-right:2%;
+.sa-bisua {
+  width: 49%;
+  margin-right: 2%;
 }
-.sa-bisub{
-  width:49%;
-  
+.sa-bisub {
+  width: 49%;
 }
-.sa-bisuc{
-  width:49%;
-  margin-right:2%;
-  margin-top:20px;
+.sa-bisuc {
+  width: 49%;
+  margin-right: 2%;
+  margin-top: 20px;
 }
-.sa-bisud{
-  width:49%;
-  margin-top:20px;
+.sa-bisud {
+  width: 49%;
+  margin-top: 20px;
 }
-.service{
-  background-image:url(img/service1.png);
-  background-size:cover;
-  background-position:center;
-  height:380px;
-  width:100%;
-}
-
-.serviceb{
-  background-image:url(img/service2.png);
-  background-size:cover;
-  background-position:center;
-  height:380px;
-  width:100%;
-}
-.servicec{
-  background-image:url(img/service3.png);
-  background-size:cover;
-  background-position:center;
-  height:380px;
-  width:100%;
-}
-.serviced{
-  background-image:url(img/service4.png);
-  background-size:cover;
-  background-position:center;
+.service {
+  background-image: url(img/service1.png);
+  background-size: cover;
+  background-position: center;
   height: 380px;
-  width:100%;
-}
-.bunna,.bunnb,.bunnc,.bunnd{
-  width:100%;
-  font-size:18px;
+  width: 100%;
 }
 
-.jinnzaiikusei,.kotingu,.konnsaru,.torannsu{
+.serviceb {
+  background-image: url(img/service2.png);
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  width: 100%;
+}
+.servicec {
+  background-image: url(img/service3.png);
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  width: 100%;
+}
+.serviced {
+  background-image: url(img/service4.png);
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  width: 100%;
+}
+.bunna,
+.bunnb,
+.bunnc,
+.bunnd {
+  width: 100%;
+  font-size: 18px;
+}
+
+.jinnzaiikusei,
+.kotingu,
+.konnsaru,
+.torannsu {
   font-weight: bold;
-  font-size:20px;
-  margin:7px 0;
+  font-size: 20px;
+  margin: 7px 0;
 }
 
-
-
-.miru{
-  background-color:rgb(194, 12, 12);
-  width:28%;
-  color:white;
-  margin:30px auto;
-  
-  
+.miru {
+  background-color: rgb(194, 12, 12);
+  width: 28%;
+  color: white;
+  margin: 30px auto;
 }
-.mirui{         /*135行目*/
-  width:500px;
-  background-color:rgb(194, 12, 12);
-
+.mirui {
+  /*135行目*/
+  width: 500px;
+  background-color: rgb(194, 12, 12);
 }
-.miruh{
- text-align: center;
- padding:15px;
- font-weight:bold;
- 
+.miruh {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
-.senntarinngua{
-  margin-right:auto;
-  margin-left:auto;
-  width:70%;
-  
+.senntarinngua {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
 }
 
 /*maind*/
-.maind{
-  background-color:rgb(41, 41, 41);
-  width:100%;
-  height:500px;
-  margin-top:50px;
+.maind {
+  background-color: rgb(41, 41, 41);
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
 }
-.tyuukann{
-  width:65%;
-  margin-left:auto;
-  margin-right:auto;
-  position:relative;
+.tyuukann {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
-.h4{
-  color:white;
-  font-size:30px;
-  margin-top:85px;
+.h4 {
+  color: white;
+  font-size: 30px;
+  margin-top: 85px;
   float: left;
   letter-spacing: 0.2em;
 }
-.nyu-suitirann{
-  background-color:rgb(185, 16, 50);
-  color:white;
-  width:180px;
-  height:40px;
-  margin-left:auto;
-  margin-top:0px;
-  position:relative;
-  top:85px;
+.nyu-suitirann {
+  background-color: rgb(185, 16, 50);
+  color: white;
+  width: 180px;
+  height: 40px;
+  margin-left: auto;
+  margin-top: 0px;
+  position: relative;
+  top: 85px;
 }
-.mirub{
+.mirub {
   font-weight: bold;
-  font-size:15px;
-  position:absolute;
-  top:20%;
-  left:13%;
-
-
+  font-size: 15px;
+  position: absolute;
+  top: 20%;
+  left: 13%;
 }
-.oya{
-  position:relative;
-  top:20px;
+.oya {
+  position: relative;
+  top: 20px;
   letter-spacing: 0.1em;
-  width:100%;
-  
+  width: 100%;
 }
-.itiranna{
-  width:100%;
-  height:70px;
-  background-color:white;
-  position:absolute;
-  top:100px;
-  right:0px;
+.itiranna {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  right: 0px;
 }
-.itirannb{
-  width:100%;
-  height:70px;
-  background-color:white;
-  position:absolute;
-  top:180px;
-  right:0px;
+.itirannb {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  top: 180px;
+  right: 0px;
 }
-.itirannc{
-    width:100%;
-    height:70px;
-  background-color:white;
-  position:absolute;
-  top:260px;
-  right:0px;
+.itirannc {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  top: 260px;
+  right: 0px;
 }
-.hiduke{
+.hiduke {
   float: left;
-  margin-top:20px;
-  margin-left:15px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
-.hidukeb{
+.hidukeb {
   float: left;
-  margin-top:20px;
-  margin-left:15px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
-.hidukec{
-  float:left;
-  margin-top:20px;
-  margin-left:15px;
+.hidukec {
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
 }
-.sougyou{
-  font-size:18px;
+.sougyou {
+  font-size: 18px;
   font-weight: bold;
-  margin-top:20px;
-  margin-left:130px;
-  
+  margin-top: 20px;
+  margin-left: 130px;
 }
-.tyoutatu{
-  font-size:18px;
+.tyoutatu {
+  font-size: 18px;
   font-weight: bold;
-  margin-top:20px;
-  margin-left:130px;
+  margin-top: 20px;
+  margin-left: 130px;
 }
-.keisai{
-  font-size:18px;
+.keisai {
+  font-size: 18px;
   font-weight: bold;
-  margin-top:20px;
-  margin-left:130px;
+  margin-top: 20px;
+  margin-left: 130px;
 }
 /*maine*/
 
-.maine{
-  width:100%;
-  height:600px;
-  background-color:white;
+.maine {
+  width: 100%;
+  height: 600px;
+  background-color: white;
 }
-.ea{
-  width:66%;
-  margin-right:auto;
-  margin-left:auto;
+.ea {
+  width: 66%;
+  margin-right: auto;
+  margin-left: auto;
 }
-.burogu{
-  font-size:30px;
+.burogu {
+  font-size: 30px;
   text-align: center;
-  margin-top:100px;
-  margin-bottom:30px;
-  
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
-.buroguitirann{
+.buroguitirann {
   display: flex;
-  flex-wrap:wrap ;
-  
+  flex-wrap: wrap;
 }
-.sougyouriyuu{
-  background-image:url(img/blog.png);
-  background-position:center;
-  background-size:cover;
-  width:400px;
-  height:250px;
+.sougyouriyuu {
+  background-image: url(img/blog.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 250px;
 }
-.burogua{
-  width:30%;
+.burogua {
+  width: 30%;
   letter-spacing: 0.1em;
 }
-.burogub{
-  width:30%;
-  margin-left:30px;
+.burogub {
+  width: 30%;
+  margin-left: 30px;
   letter-spacing: 0.1em;
 }
-.buroguc{
-  width:30%;
-  margin-left:30px;
+.buroguc {
+  width: 30%;
+  margin-left: 30px;
   letter-spacing: 0.1em;
 }
-.riyuu,.mesoddo,.rironn{
-  font-weight:bold;
-  letter-spacing:0.1em;
-  margin-top:5px;
+.riyuu,
+.mesoddo,
+.rironn {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
 }
-.hiduked,.hidukee,.hidukef{
-  margin-top:5px;
+.hiduked,
+.hidukee,
+.hidukef {
+  margin-top: 5px;
 }
 /*.itirannd{
   
   margin:50px auto;
   position: relative;
 }*/
-.mirua{
-  background-color:rgb(194, 12, 12);
-  color:white;
+.mirua {
+  background-color: rgb(194, 12, 12);
+  color: white;
   font-weight: bold;
-  padding:10px 60px;
-  margin:50px auto;
+  padding: 10px 60px;
+  margin: 50px auto;
 }
-img{
-  width:100%;
-  
+img {
+  width: 100%;
 }
 /*mainf*/
 
-.mainf{
-  width:100%;
-  height:250px;
-  margin-bottom:100px;
+.mainf {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 100px;
 }
-.hidari{
-  width:50%;
+.hidari {
+  width: 50%;
   float: left;
 }
-.kaisyagaiyou{
-  color:white;
+.kaisyagaiyou {
+  color: white;
   display: inline-block; /*調べる*/
-  font-size:25px;
-  background-color:crimson;
+  font-size: 25px;
+  background-color: crimson;
   line-height: 10;
   width: 100%;
   text-align: center;
-  
-  
 }
-.migi{
-  width:50%;
-  height:250px;
-  margin-left:auto;
-  
+.migi {
+  width: 50%;
+  height: 250px;
+  margin-left: auto;
 }
-.saiyoujyouhou{
-  width:100%;
-  background-color:rgb(41, 39, 39);
-  font-size:25px;
-  color:white;
-  display:inline-block;
-  line-height:10;
+.saiyoujyouhou {
+  width: 100%;
+  background-color: rgb(41, 39, 39);
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  line-height: 10;
   text-align: center;
-  
 }
 /*maing*/
 
-.maing{
-  height:350px;
-  width:100%;
-  background-color:rgb(240, 240, 240);
-
+.maing {
+  height: 350px;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
 }
-.mannnaka{
-  width:60%;
-  margin:0 auto;
+.mannnaka {
+  width: 60%;
+  margin: 0 auto;
   display: block;
   /*border:1px solid black;*/
 }
-.iti{
- display: flex;
+.iti {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.mirux{
-  background-color:rgb(194, 12, 12);
+.mirux {
+  background-color: rgb(194, 12, 12);
   text-align: center;
-  color:white;
-  padding:15px 0;
-  width:30%;
-  margin:30px 0;
-  display:inline-block;
+  color: white;
+  padding: 15px 0;
+  width: 30%;
+  margin: 30px 0;
+  display: inline-block;
 }
-.otoiawase{
-  font-size:30px;
-  font-weight:bold;
+.otoiawase {
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
-  padding-top:100px;
-  letter-spacing:0.1em
+  padding-top: 100px;
+  letter-spacing: 0.1em;
 }
-.irai{
+.irai {
   text-align: center;
-  padding-top:15px;
-  letter-spacing:0.1em
+  padding-top: 15px;
+  letter-spacing: 0.1em;
 }
 
 /*footer*/
 
-.footer-a::after{
-  content:"|";
-  padding:0 10px;
+.footer-a::after {
+  content: "|";
+  padding: 0 10px;
 }
-.footer{
-  width:100%;
-  height:100px;
-  color:white;
-  background-color:rgb(54, 54, 54);
+.footer {
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: rgb(54, 54, 54);
 }
-.naka{
-  width:70%;
-  margin-left:auto;
-  margin-right:auto;
-  display:flex;
+.naka {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
-.footer-logo{
-  margin-top:40px;
-  
-  
-  
+.footer-logo {
+  margin-top: 40px;
 }
-.footer-list{
-  
-  margin:40px 0 0 auto;
+.footer-list {
+  margin: 40px 0 0 auto;
 }
-.footer-list li{
-  float:left;
+.footer-list li {
+  float: left;
   list-style: none;
-  padding-right:0px;
-  
+  padding-right: 0px;
 }
 /*
 *{
@@ -496,222 +470,236 @@ img{
 }
 */
 
-@media screen and (max-width:768px){
-   
-  #hamburger:hover{
-    transition:transform 0.3s;
+@media screen and (max-width: 768px) {
+  #hamburger:hover {
+    transition: transform 0.3s;
   }
 
-
-   #hamburger{
-    width:40px;
-    height:40px;
-    z-index:10;
-    margin-left:auto;
-    margin-right:5%;
-    position:relative;
-    top:18px;
-    transition:all 0.4s;
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: 5%;
+    position: relative;
+    top: 18px;
+    transition: all 0.4s;
   }
-  #hamburger span{
-    width:35px;
-    height:2px;
-    background-color:black;
-    position:absolute;/*これで表示できた。*/
-    
-
-
+  #hamburger span {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    position: absolute; /*これで表示できた。*/
   }
-  #hamburger span:nth-of-type(1){
-    top:10px;
-    transform: translateY(20px) rotate(-45deg);
+  #hamburger span:nth-of-type(1) {
+    top: 10px;
     
   }
-  #hamburger span:nth-of-type(2){
-    top:20px;
-      opacity: 0;
+  #hamburger span:nth-of-type(2) {
+    top: 20px;
+    
   }
-  #hamburger span:nth-of-type(3){
-    top:30px;
-    transform: translateY(-20px) rotate(45deg);
+  #hamburger span:nth-of-type(3) {
+    top: 30px;
+    
   }
 
-  .header-list{
-    display:none;
+  .header-list {
+    display: none;
   }
-  
+
   /*maina*/
 
-  .center{
-    width:80%;
-    margin:0 auto;
+  .center {
+    width: 80%;
+    margin: 0 auto;
   }
-
 
   /*mainb*/
-  .mainB{
-    height:400px;
+  .mainB {
+    height: 400px;
+  }
+  .oomoi {
+    width: 85%;
+    padding: 20% 0;
+  }
+  .omoi {
+    font-size: 30px;
+  }
+  .nagai {
+    font-size: 15px;
+  }
 
-
-  }
-  .oomoi{
-    width:85%;
-    padding:20% 0;
-  }
-  .omoi{
-    font-size:30px;
-  }
-  .nagai{
-    font-size:15px;
-  }
-  
   /*mainc*/
-   
-  .mainC{
 
-    height:1300px;
+  .mainC {
+    height: 1300px;
   }
 
+  .h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
 
- .h3{
-  font-size:25px;
-  text-align: center;
-  margin-top:90px;
-  margin-bottom:20px;
-}
+  .service {
+    background-image: url(img/service1.png);
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 100%;
+  }
 
+  .sa-bisua,
+  .sa-bisub,
+  .sa-bisuc,
+  .sa-bisud {
+    width: 100%;
+  }
+  .serviceb {
+    background-image: url(img/service2.png);
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 100%;
+  }
+  .servicec {
+    background-image: url(img/service3.png);
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 100%;
+  }
+  .serviced {
+    background-image: url(img/service4.png);
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 100%;
+  }
+  .bunna,
+  .bunnb,
+  .bunnc,
+  .bunnd {
+    width: 100%;
+    font-size: 12px;
+  }
+  .jinnzaiikusei,
+  .kotingu,
+  .konnsaru,
+  .torannsu {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 7px 0;
+  }
+  .senntarinngua {
+    width: 85%;
+  }
+  .miru {
+    width: 90%;
+  }
+  .miruh {
+    padding: 10px;
+  }
 
+  /*maind*/
 
-  .service{
-  background-image:url(img/service1.png);
-  background-size:cover;
-  background-position:center;
-  height:180px;
-  width:100%;
-}
+  .maind {
+    height: 400px;
+  }
+  .tyuukann {
+    width: 80%;
+  }
+  .h4 {
+    font-size: 20px;
+  }
+  .nyu-suitirann {
+    width: 160px;
+  }
+  .mirub {
+    font-size: 13px;
+    position: absolute;
+    top: 25%;
+  }
+  .itiranna,
+  .itirannb,
+  .itirannc {
+    height: 50px;
+  }
+  .hiduke,
+  .hidukeb,
+  .hidukec {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .sougyou,
+  .tyoutatu,
+  .keisai {
+    margin-top: 15px;
+    font-size: 13px;
+    margin-left: 110px;
+  }
+  .itirannb {
+    position: absolute;
+    top: 160px;
+  }
+  .itirannc {
+    position: absolute;
+    top: 220px;
+  }
 
-   .sa-bisua,.sa-bisub,.sa-bisuc,.sa-bisud{
+  /*maine*/
+
+  .maine {
+    height: 1000px;
+  }
+
+  .ea {
+    width: 80%;
+  }
+  .burogua {
+    width: 100%;
+  }
+  .burogub {
+    width: 100%;
+    margin: 0;
+  }
+  .buroguc {
+    width: 100%;
+    margin: 0;
+  }
+
+  /*maing*/
+
+  .mirux {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .footer {
+    height: 300px;
+  }
+  /*footer*/
+
+  .naka{
+    display:inline-block;
     width:100%;
+  }
+  .footer-logo {
+  margin-top:20px;
+   text-align:center;
+  }
+  .footer-list{
+    margin:0;
 
   }
-  .serviceb{
-  background-image:url(img/service2.png);
-  background-size:cover;
-  background-position:center;
-  height:180px;
-  width:100%;
-}
-.servicec{
-  background-image:url(img/service3.png);
-  background-size:cover;
-  background-position:center;
-  height:180px;
-  width:100%;
-}
-.serviced{
-  background-image:url(img/service4.png);
-  background-size:cover;
-  background-position:center;
-  height: 180px;
-  width:100%;
-}
-.bunna,.bunnb,.bunnc,.bunnd{
-  width:100%;
-  font-size:12px;
-}
-.jinnzaiikusei,.kotingu,.konnsaru,.torannsu{
-  font-weight: bold;
-  font-size:15px;
-  margin:7px 0;
-}
-.senntarinngua{
-  width:85%;
-}
-.miru{
- width:90%;
-}
-.miruh{
-  padding:10px;
-}
-
-/*maind*/
-
-.maind{
-  height:400px;
-}
-.tyuukann{
-  width:80%;
-}
-.h4{
-  font-size:20px;
-}
-.nyu-suitirann{
-  width:160px;
-}
-.mirub{
-  font-size:13px;
-  position:absolute;
-  top:25%;
-}
-.itiranna,.itirannb,.itirannc{
-  height:50px;
-}
-.hiduke,.hidukeb,.hidukec{
-  margin-top:15px;
-  font-size:13px;
-}
-.sougyou,.tyoutatu,.keisai{
-  margin-top:15px;
-  font-size:13px;
-  margin-left:110px;
-}
-.itirannb{
-  position:absolute;
-  top:160px;
-}
-.itirannc{
-  position:absolute;
-  top:220px;
-}
-
-           /*maine*/
-
-.maine{
-  height:1000px;
-}
-
-.ea{
-  width:80%;
-}
-.burogua{
-  width:100%;
-}
-.burogub{
-  width:100%;
-  margin:0;
-}
-.buroguc{
-  width:100%;
-  margin:0;
-}
-
-/*maing*/
-
-.mirux{
-  width:100%;
-  padding:10px 0;
-}
-.footer{
-  height:300px;
-}
-            /*footer*/
-.footer-logo{
-  padding-top:30px;
-  margin:0 auto;
-}
-.footer-a{
-  float: inherit;
-}
-
-
+  .footer-list li{
+    text-align:center;
+    clear:both;
+  }
+  .footer-a::after{
+    content:none;
+    /*これで間の線が消えた*/
+  }
+ 
 }

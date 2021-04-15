@@ -97,7 +97,8 @@ z-index: 5;
   display: block;
 }
 .iti{
-  position:relative;
+  display:flex;
+  justify-content:center;
   
 
 }
@@ -106,9 +107,7 @@ z-index: 5;
   text-align: center;
   color:white;
   padding:15px 100px;
-  position:absolute;
-  top:20px;
-  left:36%;
+  margin:30px auto;
 }
 .otoiawase{
   font-size:30px;
@@ -155,4 +154,57 @@ z-index: 5;
   list-style: none;
   padding-right:0px;
   
+}
+@media screen and (max-width:768px){
+  
+  #hamburger{
+    width:40px;
+    height:40px;
+    z-index:10;
+    margin-left:auto;
+    margin-right:5px;
+    position:relative;
+    top:18px;
+
+  }
+  #hamburger span{
+    width:35px;
+    height:2px;
+    background-color:black;
+    position:absolute;
+  }
+  #hamburger span:nth-of-type(1){
+    top:10px;
+  }
+  #hamburger span:nth-of-type(2){
+    top:20px;
+  }
+  #hamburger span:nth-of-type(3){
+    top:30px;
+  }
+  .header-list{
+    display:none;
+  }
+  .title{
+    width:130px;
+    margin:40% auto;
+  }
+  /*mainb*/
+
+  .tyuukann{
+    width:90%;
+  }
+  .hoso{
+    width:100%;
+  }
+
+  /*ming*/
+
+  .iti{
+    display:flex;
+    justify-content:center;
+  }
+  .mannnaka{
+    width:80%;
+  }
 }
