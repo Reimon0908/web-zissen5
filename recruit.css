@@ -1,7 +1,7 @@
 a{
   text-decoration: none;/*下線を消す*/
   color:inherit;/*色を継承する*/
-  transition: 0.3s;
+  
 
 }
 a:hover{
@@ -242,5 +242,37 @@ h1{
 
   .mannnaka{
     width:85%;
+  }
+  /*footer*/
+  .footer{
+    height:300px;
+  }
+  .naka{
+    display:inline-block;
+    width:100%;
+  }
+  .footer-logo {
+  margin-top:20px;
+   text-align:center;
+  }
+  .footer-a{
+    width:100%;
+    padding:5px;
+  }
+  .footer-b{
+    width:100%;
+    padding:5px;
+  }
+  .footer-list{
+    margin:0;
+
+  }
+  .footer-list li{
+    text-align:center;
+    clear:both;
+  }
+  .footer-a::after{
+    content:none;
+    /*これで間の線が消えた*/
   }
 }

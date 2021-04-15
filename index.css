@@ -1,7 +1,6 @@
 a {
   text-decoration: none; /*下線を消す*/
   color: inherit; /*色を継承する*/
-  transition: 0.3s;
 }
 a:hover {
   color: gray;
@@ -690,8 +689,12 @@ img {
    text-align:center;
   }
   .footer-a{
-    width:200px;
-    margin:0 auto;
+    width:100%;
+    padding:5px;
+  }
+  .footer-b{
+    width:100%;
+    padding:5px;
   }
   .footer-list{
     margin:0;

@@ -255,7 +255,38 @@ z-index: 5;
 .mirub{
   width:100%;
 }
+/*footer*/
+  .footer{
+    height:300px;
+  }
+  .naka{
+    display:inline-block;
+    width:100%;
+  }
+  .footer-logo {
+  margin-top:20px;
+   text-align:center;
+  }
+  .footer-a{
+    width:100%;
+    padding:5px;
+  }
+  .footer-b{
+    width:100%;
+    padding:5px;
+  }
+  .footer-list{
+    margin:0;
 
+  }
+  .footer-list li{
+    text-align:center;
+    clear:both;
+  }
+  .footer-a::after{
+    content:none;
+    /*これで間の線が消えた*/
+  }
 
 
 }
