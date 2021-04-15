@@ -169,7 +169,6 @@ main {
 
 .miru {
   background-color: rgb(194, 12, 12);
-  width: 28%;
   color: white;
   margin: 30px auto;
 }
@@ -180,7 +179,7 @@ main {
 }
 .miruh {
   text-align: center;
-  padding: 15px;
+  padding: 15px 100px;
   font-weight: bold;
 }
 .senntarinngua {
@@ -293,7 +292,7 @@ main {
 
 .maine {
   width: 100%;
-  height: 600px;
+  
   background-color: white;
 }
 .ea {
@@ -415,8 +414,8 @@ img {
   background-color: rgb(194, 12, 12);
   text-align: center;
   color: white;
-  padding: 15px 0;
-  width: 30%;
+  padding: 15px 100px;
+  
   margin: 30px 0;
   display: inline-block;
 }
@@ -595,11 +594,9 @@ img {
   .senntarinngua {
     width: 85%;
   }
-  .miru {
-    width: 90%;
-  }
+  
   .miruh {
-    padding: 10px;
+    padding: 15px 70px;
   }
 
   /*maind*/
@@ -650,15 +647,13 @@ img {
 
   /*maine*/
 
-  .maine {
-    height: 1000px;
-  }
 
   .ea {
     width: 80%;
   }
   .burogua {
     width: 100%;
+    height:auto;
   }
   .burogub {
     width: 100%;
@@ -671,9 +666,13 @@ img {
 
   /*maing*/
 
+  .mannnaka{
+    width:80%;
+  }
+
   .mirux {
-    width: 100%;
-    padding: 10px 0;
+  
+    padding: 10px 80px;
   }
   .footer {
     height: 300px;

@@ -110,7 +110,6 @@ img{
   text-align: center;
   color:white;
   padding:15px 100px;
-  width:30%;
  margin-top:30px;
 }
 .otoiawase{
@@ -203,9 +202,6 @@ img{
 
   .tyuukannd{
     width:80%;
-  }
-  .miruf{
-    width:100%;
   }
   /*footer*/
   .footer{
